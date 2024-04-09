@@ -1,0 +1,47 @@
+<div class="header">
+    <mat-toolbar style="height: 70px; background-color: #7a3b25;">
+        <h1 class="heading">BAKE MY CAKE</h1>
+        <button matTooltip="Home" class="icon" mat-icon-button>
+      <mat-icon>home</mat-icon>
+    </button>
+        <button matTooltip="Cake Requests" mat-icon-button routerLink="../cake-requests">
+      <mat-icon class="icon">assignment</mat-icon>
+    </button>
+        <button matTooltip="Login" mat-icon-button routerLink="../login">
+      <mat-icon class="icon">login</mat-icon>
+    </button>
+    </mat-toolbar>
+
+    <app-cake-list></app-cake-list>
+
+    <footer class="footer">
+        <div style="background-color: lightgray; padding: 7px; color: black">
+            <h3>
+                Connect with Us :
+                <span>
+          <a mat-icon-button target="_blank" href="https://www.facebook.com"
+            ><img
+              class="social-logo"
+              src="../../assets/images/facebook.png"
+              alt="facebook-logo"
+          /></a>
+          <a mat-icon-button target="_blank" href="https://www.instagram.com"
+            ><img
+              class="social-logo"
+              src="../../assets/images/instagram.png"
+              alt="instagram-logo"
+          /></a>
+          <a mat-icon-button target="_blank" href="https://www.twitter.com"
+            ><img
+              class="social-logo"
+              src="../../assets/images/twitter.png"
+              alt="twitter-logo"
+          /></a>
+        </span>
+            </h3>
+        </div>
+        <h3 style="padding: 15px">
+            &copy; 2023 Cake N Cookies. All Rights Reserved
+        </h3>
+    </footer>
+</div>
